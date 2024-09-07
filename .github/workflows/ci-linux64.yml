@@ -2,9 +2,9 @@ name: (Linux x64) build, test and publish an AppImage
 
 on: 
   push:
-    branches: [ v2 ]
+    branches: [ master ]
   pull_request:
-    branches: [ v2 ]
+    branches: [ master ]
 
 jobs:
   build-linux:
